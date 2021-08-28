@@ -80,7 +80,7 @@ const Form = () => {
                 createTransaction();
             }
         }
-    },[segment, formData])
+    },[segment])
 
     const selectedCategories= formData.type === 'Income' ? incomeCategories : expenseCategories
     
